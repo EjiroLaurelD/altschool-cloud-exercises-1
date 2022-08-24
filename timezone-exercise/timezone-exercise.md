@@ -1,5 +1,5 @@
-#Timezone exercise
-##Changing the timezone of the linux system
+# Timezone exercise
+## Changing the timezone of the linux system
 To change the timezone of the linux system, `timedatectl` command was used
 1. Start your VM using `vagrant up`
 2. SSH into your VM using `vagrant ssh`
