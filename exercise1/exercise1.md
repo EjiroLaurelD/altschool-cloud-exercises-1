@@ -12,4 +12,5 @@ To change the network settings in the Vagrantfile:
 1. Edit the Vagrantfile using Vim or Nano editor and set the `private_network` type to `"dhcp"`
 1. Install `net-tools` using `sudo apt install net-tools`
 1. SSH into your VM and run `ifconfig`. The output looks like the photo attached
+![exercise1 screenshot](exercise1/exercise1.PNG)
 
