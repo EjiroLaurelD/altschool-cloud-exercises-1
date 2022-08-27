@@ -1,7 +1,7 @@
 # Exercise 2
 ## 10 Linux commands
 1. exit : this command is used to exit the shell where it is currently running.  
-**usage**- _exit [N]_  (where n is the status of the shell)
+**usage**- _exit [N]_  (where n is the status of the shell)  
 ![exit image](images/exit.jpg)
 1. find : this command is used to search. it is capable of beginning your search in any designated directory and looks for a number of different parameters like the filename, date of creation or modification, owner, group, permissions, and size.  
 **usage** - _find DIRECTORY OPTIONS PARAMETERS_  
