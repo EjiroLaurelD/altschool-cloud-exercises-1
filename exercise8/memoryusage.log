@@ -1,0 +1,72 @@
+Your memory usage for your ubuntu-focal server at 15:00:01 is:
+
+              total        used        free      shared  buff/cache   available
+Mem:          976Mi       154Mi       424Mi       3.0Mi       397Mi       672Mi
+Swap:            0B          0B          0B
+
+You have used 15.8607% of your total memory
+--------------------------------------------------------
+Your memory usage for your ubuntu-focal server at 16:00:01 is:
+
+              total        used        free      shared  buff/cache   available
+Mem:          976Mi       165Mi       455Mi       3.0Mi       355Mi       668Mi
+Swap:            0B          0B          0B
+
+You have used 17.0306% of your total memory
+--------------------------------------------------------
+Your memory usage for your ubuntu-focal server at 17:00:01 is:
+
+              total        used        free      shared  buff/cache   available
+Mem:          976Mi       154Mi       470Mi       3.0Mi       351Mi       672Mi
+Swap:            0B          0B          0B
+
+You have used 15.8551% of your total memory
+--------------------------------------------------------
+Your memory usage for your ubuntu-focal server at 18:00:01 is:
+
+              total        used        free      shared  buff/cache   available
+Mem:          976Mi       150Mi       413Mi       3.0Mi       412Mi       675Mi
+Swap:            0B          0B          0B
+
+You have used 15.4256% of your total memory
+--------------------------------------------------------
+Your memory usage for your ubuntu-focal server at 19:00:02 is:
+
+              total        used        free      shared  buff/cache   available
+Mem:          976Mi       150Mi       169Mi       3.0Mi       656Mi       674Mi
+Swap:            0B          0B          0B
+
+You have used 15.5228% of your total memory
+--------------------------------------------------------
+Your memory usage for your ubuntu-focal server at 20:00:01 is:
+
+              total        used        free      shared  buff/cache   available
+Mem:          976Mi       152Mi       152Mi       3.0Mi       672Mi       673Mi
+Swap:            0B          0B          0B
+
+You have used 15.5992% of your total memory
+--------------------------------------------------------
+Your memory usage for your ubuntu-focal server at 21:00:01 is:
+
+              total        used        free      shared  buff/cache   available
+Mem:          976Mi       152Mi       142Mi       3.0Mi       681Mi       672Mi
+Swap:            0B          0B          0B
+
+You have used 15.6379% of your total memory
+--------------------------------------------------------
+Your memory usage for your ubuntu-focal server at 22:00:01 is:
+
+              total        used        free      shared  buff/cache   available
+Mem:          976Mi       152Mi       133Mi       3.0Mi       691Mi       672Mi
+Swap:            0B          0B          0B
+
+You have used 15.6052% of your total memory
+--------------------------------------------------------
+Your memory usage for your ubuntu-focal server at 23:00:01 is:
+
+              total        used        free      shared  buff/cache   available
+Mem:          976Mi       155Mi       461Mi       3.0Mi       359Mi       670Mi
+Swap:            0B          0B          0B
+
+You have used 15.9839% of your total memory
+--------------------------------------------------------
