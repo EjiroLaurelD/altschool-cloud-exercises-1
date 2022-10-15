@@ -1,0 +1,48 @@
+---
+
+- hosts: all
+  remote_user: vagrant
+  become: true
+  tasks:
+
+  - name: Add repository from php7.4
+    apt_repository:
+      repo: ppa:ondrej/php
+      update_cache: yes
+
+  - name: Install Apache, PHP, and the apache php dependency
+    apt:
+      name:
+        - apache2
+        - php7.4
+        - libapache2-mod-php7.4
+
+  - name: Set timezone to Africa/Lagos
+    timezone:
+      name: Africa/Lagos
+
+  - name: Host the index.php file on the server
+    copy:
+      content: |
+               <?php
+                date_default_timezone_set("Africa/Lagos");
+                echo date("F d, Y h:i:s A e", time());
+               ?>
+      dest: /var/www/php/index.php
+      owner: root
+      group: root
+      mode: '0755'
+
+  - name: Change the default apache config to render the php file
+    replace:
+      path: /etc/apache2/sites-available/000-default.conf
+      regexp: 'DocumentRoot(\s)\/var\/www\/html$'
+      replace: 'DocumentRoot /var/www/php'
+      backup: yes
+    notify: restart_apache
+
+  handlers:
+  - name: restart_apache
+    systemd:
+      name: apache2
+      state: restarted
