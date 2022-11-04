@@ -10,6 +10,8 @@
     password: '{{ mysql_user_password }}'
     priv: '*.*:ALL,GRANT'
     state: present
+    register: newuser
+    changed_when: newuser.msg != "Privileges updated"
   tags: mysql
 
 - name: Create new database

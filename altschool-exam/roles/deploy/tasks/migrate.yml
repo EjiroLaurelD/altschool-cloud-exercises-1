@@ -7,4 +7,7 @@
     cmd: php artisan migrate --seed
     chdir: '{{ project_path }}'
   notify: Restart mysql
+  register: seed
+  changed_when: seed.stderr != ""
+  ignore_errors: yes
   tags: migrate
