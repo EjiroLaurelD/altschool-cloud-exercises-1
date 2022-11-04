@@ -11,7 +11,7 @@
   tags: ssl
 
 - name: Install Free SSL, configure redirect to HTTPS and restart the Apache server
-  shell: certbot --apache --agree-tos --redirect -m '{{ ssl_email }}' -d '{{ domain }}
+  shell: certbot --apache --agree-tos --redirect -m '{{ ssl_email }}' -d '{{ domain }}'
   args:
     creates: /etc/apache2/sites-available/exam-project-le-ssl.conf
   tags: ssl
