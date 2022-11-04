@@ -1,6 +1,6 @@
 ---
 
-- include: install_mysql.yml
-- include: mysql_secure_installation.yml
-- include: create_users_db.yml
+- include_tasks: install_mysql.yml
+- include_tasks: mysql_secure_installation.yml
+- include_tasks: create_users_db.yml
 
